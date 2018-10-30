@@ -7,7 +7,7 @@ In this lesson, we'll review the concept of many-to-many relationships, and how 
 
 ## Objectives
 
-You will learn how to:
+You will be a ble to:
 
 * Understand and idenitify many-to-many relationships
 * Many use of join tables for joining tables with many-to-many relationships
@@ -55,7 +55,7 @@ As you can see in the diagram above, the structure of join tables are quite simp
 
 Note the example data in the diagram above. To cover all the links between orders and products, the row for the highlighted order is repeated three times, with a different UPC for each row in the 'OrderLines' table. Each permutation of this represents a link between the single highlight order in the 'Orders' table and a unique product.  To put it simply, we can easily interpret this as the "The order placed on 20-July-2003 by Customer 5678 contained 3 products".  By leveraging the join table in our queries, we can now easily write queries that deal with tables with many-to-many relationships.  
 
-# Conclusion
+## Summary
 
 In this lesson, we learned how to:
 
